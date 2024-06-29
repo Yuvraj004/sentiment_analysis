@@ -63,7 +63,7 @@ export default function Home() {
   return (
     <main style={{backgroundColor:color+"aa"}} className="transition-all delay-500 flex min-h-screen flex-col items-center justify-between p-24">
       <h1 className="lg:text-4xl text-2xl font-mono font-semibold tracking-tight">🖌🎨Paint my mood🎨🖌</h1>
-      <div className="w-1/2 border border-black p-4 rounded-lg">
+      <div className="w-1/2 min-w-80 border border-black p-4 rounded-lg">
         <textarea 
         rows={rows}
         onChange={handleInputChange}
